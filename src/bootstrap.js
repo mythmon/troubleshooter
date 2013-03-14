@@ -6,6 +6,9 @@ const TroubleshootPropertyName = "mozTroubleshoot";
 
 const WhitelistedOrigins = [
   "https://support.mozilla.org",
+  "https://support.allizom.org",
+  "https://support-dev.allizom.org",
+  "http://localhost:8000",
 ];
 
 const { classes: Cc, interfaces: Ci, utils: Cu } = Components;
