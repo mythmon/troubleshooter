@@ -5,6 +5,7 @@
     <em:id>troubleshooter@mozilla.org</em:id>
     <em:version>1.1a</em:version>
     <em:name>Troubleshooter</em:name>
+    <em:type>2</em:type>
     <em:description>
       Provides Firefox troubleshooting data to Mozilla web sites.
     </em:description>

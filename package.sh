@@ -13,8 +13,9 @@ echo $filename
 
 exclude=""
 if [ -f "$GIT_IGNORE" ]; then
-  exclude="-x@$GIT_IGNORE"
+  exclude="$exclude -x@$GIT_IGNORE"
 fi
+exclude="$exclude -x .*"
 cd src
 zip -r "../$filename" . $exclude
 cd ..
